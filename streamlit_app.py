@@ -89,8 +89,8 @@ if streamlit.button('Add a fruit to the list'):
 #       # fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #       streamlit.dataframe(back_from_function)
 
-except URLError as e:
-      streamlit.error()
+# except URLError as e:
+#      streamlit.error()
   
 
 # fruit_add = streamlit.text_input('What fruit would you like to add?')
